@@ -1,0 +1,142 @@
+.padding{
+
+  padding: 80px 0;
+}
+:root {
+  --primary-color: #0abde3;
+  --black-color: #202020;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+/*Header start*/
+
+header {
+  padding: 10px 0 7px;
+  border-bottom: 2px solid #f0f2f4;
+}
+.b-title{
+  font-size: clamp(2rem, 5vw, 5rem);
+  margin-bottom: 40px;
+  font-weight: 600;
+
+}
+
+.navbar-nav {
+  padding: 10px 0;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.nav-link {
+  color: #0f2656;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.navbar-brand {
+  min-width: 15%;
+}
+
+.navbar-brand img {
+  width: 100%;
+}
+
+/*Header end*/
+
+/*Banner Start*/
+
+.banner {
+  padding: 80px 0;
+}
+.b-content {
+  text-transform: capitalize;
+}
+
+
+.btn {
+
+  color: #fff;
+  text-transform: capitalize;
+  border: 1px solid var(--primary-color);
+  border-radius: 40px;
+  background-color: var(--primary-color);
+  padding: 15px 50px;
+  transition: .4s;
+}
+.btn:hover{
+
+  color: #0f9cb9;
+  background-color: white;
+}
+
+.anywhere {
+  text-transform: capitalize;
+  font-size: clamp(2rem, 5vw, 5rem);
+  font-weight: 700;
+  color: var(--primary-color);
+}
+
+.b-content p {
+  line-height: 25px;
+  margin: 35px 0;
+}
+
+/*Banner end*/
+
+.info {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 35px;
+}
+
+.section-name {
+  text-align: center;
+  font-size: clamp(1.5rem, 5vw, 4rem);
+  display: inline-block;
+  text-transform: capitalize;
+  border-bottom: 5px solid var(--primary-color);
+}
+
+.box-shadow {
+  border-radius: 40px;
+  box-shadow: 28px 21px 61px 13px rgba(0, 0, 0, 0.59);
+}
+
+.loaction-input {
+  border-radius: 40px;
+  border: 2px solid var(--primary-color);
+  font-size: 20px;
+}
+
+.loaction-input:focus {
+  outline: none;
+}
+
+footer{
+  background-color: #f0fbfb;
+  padding: 80px 0;
+}
+
+.link{
+
+}
+
+.link ul li a{
+  margin-top: 30px;
+  text-transform: capitalize;
+  font-size: 16px;
+  text-decoration: none;
+  color: #202020;
+}
+
+.footer-title{
+
+  color: var(--primary-color);
+}
